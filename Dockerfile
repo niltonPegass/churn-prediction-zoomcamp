@@ -2,7 +2,7 @@ FROM python:3.14.4
 
 WORKDIR /app
 
-COPY requirements.txt
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY ["predict.py", "./"]
