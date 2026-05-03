@@ -16,8 +16,8 @@ Running this command will open a terminal within the container, allowing you to 
 
 ## BUILDING A DOCKER IMAGE
 
-docker build -t <container_name_service>
-docker build -t churn-prediction #niltonpegass
+docker build -t <container_name_service> .
+docker build -t churn-prediction . #niltonpegass
 
 
 ## RUNNING A DOCKER IMAGE
